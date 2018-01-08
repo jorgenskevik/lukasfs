@@ -379,6 +379,8 @@ public class SessionManager {
         user.put(KEY_TURN, pref.getString(KEY_TURN, null));
 
 
+        user.put(KEY_CLAS, pref.getString(KEY_CLAS, null));
+
         // return user
         return user;
     }
